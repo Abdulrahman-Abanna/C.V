@@ -85,6 +85,7 @@
   --fs-6: 14px;
   --fs-7: 13px;
   --fs-8: 11px;
+  --fs-9: 17px;
 
   /* font-weight */
   --fw-300: 300;
@@ -317,12 +318,12 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 155px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 470px; }
 
 .sidebar-info {
   position: relative;
@@ -432,7 +433,7 @@ main {
 
 .social-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 15px;
   padding-bottom: 4px;
@@ -478,7 +479,7 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
+  font-size: var(--fs-9);
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
@@ -1298,6 +1299,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .article-title {
     font-weight: var(--fw-600);
     padding-bottom: 15px;
+    
   }
 
   .article-title::after {
@@ -1330,11 +1332,11 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 200px;
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: 678px; }
 
   .sidebar-info { gap: 25px; }
 
@@ -1839,6 +1841,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .avatar-box img { width: 150px; }
 
   .info-content .name {
+    font-size: 20px;
     white-space: nowrap;
     text-align: center;
   }
